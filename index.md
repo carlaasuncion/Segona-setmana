@@ -25,5 +25,14 @@
 <p>Ara si nosaltres fem la comanda surt:</p>
 <p>-docker-compose up -d</p>
 <p><img src="https://user-images.githubusercontent.com/71402147/109988562-f135a580-7d07-11eb-9fa1-c9781eddaa9e.png" alt="Cat"></p>
+<p>Ara hens asegurarem de tenir l'ultima versio de imatges</p>
+<p>-docker pull docker.io/joaniznardo/ubuntum7base</p>
+<p>-docker pull docker.io/joaniznardo/ubuntum7tftp1</p>
+<p>-docker volume create lab30_dadesserver</p>
+<p>-docker run --name helper -v lab30_dadesserver: / fecha alpine true</p>
+<p>-docker cp server.ini helper: / fecha</p>
+<p>-docker rm helper</p>
+  
+
 <p>Per veure el menú de curl utilitzarem la comanda:</p>
 <p>-man curl</p>
