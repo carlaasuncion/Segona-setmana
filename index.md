@@ -45,6 +45,6 @@ services:
 <p>-sudo apt install docker-ce</p>
 <p>Ara si nosaltres fem la comanda surt:</p>
 <p>-docker-compose up -d</p>
-
+<p><img src="https://user-images.githubusercontent.com/71402147/109988562-f135a580-7d07-11eb-9fa1-c9781eddaa9e.png" alt="Cat"></p>
 <p>Per veure el menú de curl utilitzarem la comanda:/p>
 <p>-man curl</p>
