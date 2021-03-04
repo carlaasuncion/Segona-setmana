@@ -11,32 +11,11 @@
 <p>-mkdir app</p> 
 <p>-nano app/index.html</p>
 <p>Dins d'aqui posem:</p>
-<p><!doctype html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>Docker Compose Demo</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kognise/water.css@latest/dist/dark.min.css">
-</head>
-<body>
-
-    <h1>This is a Docker Compose Demo Page.</h1>
-    <p>This content is being served by an Nginx container.</p>
-
-</body>
-</html></p>
+<p><img src="https://user-images.githubusercontent.com/71402147/109990050-576ef800-7d09-11eb-81de-7f1ae5ac9cde.png" alt="Cat"></p>
 <p>-nano docker-compose.yml</p>
-<p>Aqui dins posem:</p>
-<p>version: '3.7'
-services:
-  web:
-    image: nginx:alpine
-    ports:
-      - "8000:80"
-    volumes:
-      - ./app:/usr/share/nginx/html</p>
+<p>Dins posem:</p>
+<p><img src="https://user-images.githubusercontent.com/71402147/109989281-a5cfc700-7d08-11eb-8a3c-0254337c1148.png" alt="Cat"></p>
 <p>Ara instalarem docker per aixo farem les següents comandes</p>
-<p>Aqui dins posem:</p>
 <p>-sudo apt update</p>
 <p>-sudo apt install apt-transport-https ca-certificates curl software-properties-common gnupg2</p>
 <p>-curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -</p>
