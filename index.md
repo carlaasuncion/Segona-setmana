@@ -34,6 +34,6 @@
 <p>-docker rm helper</p>
 <h5>Creació d'un domini</h5>
 <p>-curl -v -k -u admin@carla.org:123 -d 'name=unaltredominiqualsevol.edu' https://demo.poste.io/admin/api/v1/domains</p>
-<p><img src="" alt="Cat"></p>
+<p><img src="https://user-images.githubusercontent.com/71402147/110120492-68794100-7dbd-11eb-8412-5b2388b85d5a.png" alt="Cat"></p>
 
 
