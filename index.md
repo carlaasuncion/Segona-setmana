@@ -36,6 +36,7 @@
 A PARTIR DE AQUI NO ESTOY SEGURA
 
 <h5>Creació d'un compte REST API</h5>
+<p>On posa 123 es la contrasenya MAI POSAR UNA CONTRASENYA D'AQUEST TIPUS però com es un exercici i ningú hem tocara la maquina virtual he posat aquesta</p>
 <p>-curl -v -k -u admin@carla.org:123 -d 'name=nestorisback&email=nestor@elmeuprimerdomini.org&passwordPlaintext=peasovacances' https://demo.poste.io/admin/api/v1/domains</p>
 <h5>Creació d'un domini</h5>
 <p>-curl -v -k -u admin@carla.org:123 -d 'name=unaltredominiqualsevol.edu' https://demo.poste.io/admin/api/v1/domains</p>
