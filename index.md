@@ -1,6 +1,6 @@
 <h5>Gestió de comptes de domini</h5>
 <p>Jo personalment he tingut molts problemes amb el curl fins que vaig averiguar que el problema era un error del docker-compose.yml</p>
-
+<p><img src="https://user-images.githubusercontent.com/71402147/110096160-ef1e2600-7d9d-11eb-8e68-419c5b82d80b.png" alt="Cat"></p>
 <p>Per solucionar-ho el que vaig fer es restaurar la màquina i despres fer les comandes que poso a continuacio:</p>
 <p>-sudo curl -L "https://github.com/docker/compose/releases/download/1.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose</p>
 <p>-sudo chmod +x /usr/local/bin/docker-compose</p>
