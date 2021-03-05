@@ -32,8 +32,15 @@
 <p>-docker run --name helper -v lab30_dadesserver: / fecha alpine true</p>
 <p>-docker cp server.ini helper: / fecha</p>
 <p>-docker rm helper</p>
+
+A PARTIR DE AQUI NO ESTOY SEGURA
+
+<h5>Creació d'un compte REST API</h5>
+<p>-curl -v -k -u admin@carla.org:123 -d 'name=nestorisback&email=nestor@elmeuprimerdomini.org&passwordPlaintext=peasovacances' https://demo.poste.io/admin/api/v1/domains</p>
 <h5>Creació d'un domini</h5>
 <p>-curl -v -k -u admin@carla.org:123 -d 'name=unaltredominiqualsevol.edu' https://demo.poste.io/admin/api/v1/domains</p>
 <p><img src="https://user-images.githubusercontent.com/71402147/110120492-68794100-7dbd-11eb-8412-5b2388b85d5a.png" alt="Cat"></p>
+<h5>Desactivacio o activacio de compte administratiu</h5>
+<p>-curl -v -k -u admin@carla.org:123 --header "Content-Type: application/json" -X "PATCH" --data '{"superAdmin":true}' https://demo.poste.io/admin/api/v1/domains </p>
 
 
