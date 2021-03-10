@@ -13,5 +13,14 @@
 <p>Ara vull canviar el nom de example.com per un nom amb mes sentit per aixo fem aquestes dues comandes:</p>
 <p>-mv example.com+4-key.pem clau.pem</p>
 <p>-mv example.com+4.pem certificat.pem</p>
+<p>Un cop fet tot aixo ens anem a https://10.5.2.14/login (sense que estigui en inte perque la clau i certificat l'hem creat a base)</p>
+<p>Ens loguem</p>
+<p>Anem a "System settings", "TLS certificate"</p>
+<p>Ara dins de "Browse" primer posem la clau i en els dos ultims els certificats</p>
+<p>En inte</p>
+<p>-docker start error404</p>
+
+
+
 
 
