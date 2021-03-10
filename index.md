@@ -17,6 +17,7 @@
 <p>Ens loguem</p>
 <p>Anem a "System settings", "TLS certificate"</p>
 <p>Ara dins de "Browse" primer posem la clau i en els dos ultims els certificats</p>
+<p><img src="https://user-images.githubusercontent.com/71402147/110687600-f8195800-81e0-11eb-910b-4e8f0ae5bb6b.png" alt="Cat"></p>
 <p>En inte</p>
 <p>-docker start error404</p>
 <p><img src="https://user-images.githubusercontent.com/71402147/110686205-7bd24500-81df-11eb-8d32-1ff586eb044f.png" alt="Cat"></p>
